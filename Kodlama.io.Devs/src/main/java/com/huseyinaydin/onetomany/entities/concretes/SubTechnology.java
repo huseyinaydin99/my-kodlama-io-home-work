@@ -12,7 +12,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "subtechnology")
+@Table(name = "SUBTECHNOLOGY")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -21,6 +21,8 @@ public class SubTechnology {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name = "ID_SUBTECHNOLOGY")
 	private Long subTechnologyId;
+	
+	@Column(name = "SUBTECHNOLOGYNAME")
 	private String subTechnologyName;
 	
 }
