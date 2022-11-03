@@ -22,7 +22,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "programminglanguage")
+@Table(name = "PROGRAMMINGLANGUAGE")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
