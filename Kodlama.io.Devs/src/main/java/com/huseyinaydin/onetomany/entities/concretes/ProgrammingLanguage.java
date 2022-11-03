@@ -21,7 +21,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity(name = "programminglanguage")
+@Entity
 @Table(name = "programminglanguage")
 @Data
 @AllArgsConstructor
@@ -38,5 +38,6 @@ public class ProgrammingLanguage {
 	private Collection<SubTechnology> subTechnologies = new ArrayList<>();
 	
 	@Temporal(TemporalType.DATE)
+	@Column(name = "DATE_")
 	private Date date_;
 }
